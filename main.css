@@ -1,23 +1,30 @@
 body {
-  background: white;
- 
-  header{ color: teal;
-  }
-  h1{ font-size: 200%;
-      font-family: verdana;
-      text-align:center
-  }
-  p{
-    border: 2px solid powderblue;
-    font-family: Times;
-    margin: 50px;
-    text-align: center;
-	 }
-  img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      border: solid 10px;      
- }
+background: white;
+}
+header{ 
+background: grey;
+color: teal;
+margin: auto;
+height: 100px;
+}
+h1{ 
+padding: 50px;
+margin: 0px;
+font-size: 200%;
+font-family: verdana;
+text-align: center;
+}
+p{
+font-family: Times;
+margin: 50px;
+text-align: center;
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+width: 50%;
+border: solid 10px;      
+}
 
