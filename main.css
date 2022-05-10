@@ -1,22 +1,17 @@
 body {
-background: white;
+background: lightgrey;
 }
 header{ 
 background: grey;
-color: teal;
+color: lightblue;
 margin: auto;
-height: 100px;
+height: 150px;
 }
 h1{ 
 padding: 50px;
 margin: 0px;
-font-size: 200%;
+font-size: 500%;
 font-family: verdana;
-text-align: center;
-}
-p{
-font-family: Times;
-margin: 50px;
 text-align: center;
 }
 img{
@@ -25,6 +20,44 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 50px;
 width: 50%;
-border: solid 10px;      
+border: solid 10px #444;
+padding: 3px;
+}
+.first{
+font-family: "Times New Roman", Times;
+font-size: 30px;
+color: darkgrey;
+text: block;
+}
+.first:first-letter{
+font-size: 200%;
+}
+.second{
+font-family: monospace;
+font-size: 40px;
+color: mediumseagreen;
+text: block;
 }
 
+.third{
+font-family: cursive;
+font-size: 50px;
+color: black;
+text: block;
+}
+div{
+text-align: center;
+padding: auto;
+margin: 20px;
+}
+#button{
+background: #888;
+width: 200px;
+border: 5px solid;
+border-color: #999 #777 #777 #999;
+display: inline-block;
+}
+#button:hover{
+color: #00b;
+font-weight: bold;
+}
